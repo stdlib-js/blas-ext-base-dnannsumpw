@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import dnannsumpw from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dnannsumpw@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-ext-base-dnannsumpw/tags). For example,
+
+```javascript
 import dnannsumpw from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dnannsumpw@v0.2.2-esm/index.mjs';
 ```
 
@@ -164,7 +169,7 @@ import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-d
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-bernoulli@esm/index.mjs';
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@esm/index.mjs';
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
-import dnannsumpw from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dnannsumpw@v0.2.2-esm/index.mjs';
+import dnannsumpw from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dnannsumpw@esm/index.mjs';
 
 function rand() {
     if ( bernoulli( 0.8 ) > 0 ) {

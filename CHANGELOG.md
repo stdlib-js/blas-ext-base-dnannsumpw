@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-01)
+## Unreleased (2024-12-23)
 
 <section class="features">
 
@@ -32,6 +32,7 @@
 
 <details>
 
+-   [`6a0d6b8`](https://github.com/stdlib-js/stdlib/commit/6a0d6b861f8e2079a501ca4e46a9175440eedb46) - **style:** update to use tabs for indentation _(by Philipp Burckhardt)_
 -   [`ec233ec`](https://github.com/stdlib-js/stdlib/commit/ec233ec9cadd6f17a72dafa5e79b7eeee5a821eb) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dnannsumpw` [(#2994)](https://github.com/stdlib-js/stdlib/pull/2994) _(by Muhammad Haris, Athan Reines, stdlib-bot)_
 -   [`e4de24f`](https://github.com/stdlib-js/stdlib/commit/e4de24f1e086063876214e73f1f6b659dc624eb1) - **fix:** resolve bugs in addon.c files _(by Philipp Burckhardt)_
 -   [`272ae7a`](https://github.com/stdlib-js/stdlib/commit/272ae7ac5c576c68cfab1b6e304c86407faa20cd) - **docs:** remove comment _(by Athan Reines)_
@@ -73,7 +74,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 -   [`d04dcbd`](https://github.com/stdlib-js/stdlib/commit/d04dcbd6dc3b0bf4a89bd3947d317fa5ff15bb38) - **docs:** remove private annotations in C comments _(by Philipp Burckhardt)_
 -   [`ceb4943`](https://github.com/stdlib-js/stdlib/commit/ceb494351d42c2505e559a2c8aad9a120c76d0db) - **docs:** remove comments _(by Athan Reines)_
--   [`430a72b`](https://github.com/stdlib-js/stdlib/commit/430a72b28eac37834cfb1b002078fbe372d656b7) - **refactor:** update `blas/ext/base/dnannsumpw` to follow current project conventions _(by naveen, Philipp Burckhardt)_
+-   [`430a72b`](https://github.com/stdlib-js/stdlib/commit/430a72b28eac37834cfb1b002078fbe372d656b7) - **refactor:** update `blas/ext/base/dnannsumpw` to follow current project conventions _(by Naveen Kumar, Philipp Burckhardt)_
 
 </details>
 
@@ -88,8 +89,8 @@ A total of 3 people contributed to this release. Thank you to the following cont
 A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Naveen Kumar
 -   Philipp Burckhardt
--   naveen
 
 </section>
 

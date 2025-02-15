@@ -91,7 +91,7 @@ The function has the following parameters:
 -   **out**: output [`Float64Array`][@stdlib/array/float64] whose first element is the sum and whose second element is the number of non-NaN elements.
 -   **strideOut**: stride length for `out`.
 
-The `N` and stride parameters determine which elements are accessed at runtime. For example, to compute the sum of every other element in the strided array,
+The `N` and stride parameters determine which elements are accessed at runtime. For example, to compute the sum of every other element in the strided array:
 
 ```javascript
 var Float64Array = require( '@stdlib/array-float64' );
@@ -139,7 +139,7 @@ The function has the following additional parameters:
 -   **offsetX**: starting index for `x`.
 -   **offsetOut**: starting index for `out`.
 
-While [`typed array`][mdn-typed-array] views mandate a view offset based on the underlying buffer, offset parameters support indexing semantics based on starting indices. For example, to calculate the sum of every other element starting from the second element:
+While [`typed array`][mdn-typed-array] views mandate a view offset based on the underlying buffer, the offset parameters support indexing semantics based on starting indices. For example, to calculate the sum of every other element starting from the second element:
 
 ```javascript
 var Float64Array = require( '@stdlib/array-float64' );
@@ -180,7 +180,7 @@ var Float64Array = require( '@stdlib/array-float64' );
 var dnannsumpw = require( '@stdlib/blas-ext-base-dnannsumpw' );
 
 function rand() {
-    if ( bernoulli( 0.8 ) > 0 ) {
+    if ( bernoulli( 0.5 ) < 1 ) {
         return discreteUniform( 0, 100 );
     }
     return NaN;
@@ -242,7 +242,7 @@ The function accepts the following arguments:
 
 -   **N**: `[in] CBLAS_INT` number of indexed elements.
 -   **X**: `[in] double*` input array.
--   **strideX**: `[in] CBLAS_INT` stride length for `X`.
+-   **strideX**: `[in] CBLAS_INT` stride length.
 -   **n**: `[out] CBLAS_INT*` pointer for storing the number of non-NaN elements.
 
 ```c
@@ -257,7 +257,7 @@ Computes the sum of double-precision floating-point strided array elements, igno
 #include "stdlib/blas/base/shared.h"
 
 const double x[] = { 1.0, 2.0, 0.0/0.0, 4.0 };
-CBLAS_INT n = 0; 
+CBLAS_INT n = 0;
 
 double v = stdlib_strided_dnannsumpw_ndarray( 4, x, 1, 0, &n );
 // returns 7.0
@@ -267,8 +267,8 @@ The function accepts the following arguments:
 
 -   **N**: `[in] CBLAS_INT` number of indexed elements.
 -   **X**: `[in] double*` input array.
--   **strideX**: `[in] CBLAS_INT` stride length for `X`.
--   **offsetX**: `[in] CBLAS_INT` starting index for `X`.
+-   **strideX**: `[in] CBLAS_INT` stride length.
+-   **offsetX**: `[in] CBLAS_INT` starting index.
 -   **n**: `[out] CBLAS_INT*` pointer for storing the number of non-NaN elements.
 
 ```c
@@ -382,7 +382,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 </section>
 

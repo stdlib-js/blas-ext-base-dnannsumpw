@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-29)
+## Unreleased (2026-01-12)
 
 <section class="features">
 
@@ -34,6 +34,7 @@
 
 <details>
 
+-   [`2035f34`](https://github.com/stdlib-js/stdlib/commit/2035f344a1a469278042b7532f034dc6119933b3) - **docs:** add function documentation _(by Athan Reines)_
 -   [`d94514b`](https://github.com/stdlib-js/stdlib/commit/d94514bc9418f5b42df6233204d5005d53af00ca) - **docs:** clean-up TSDoc declaration comments _(by Philipp Burckhardt)_
 -   [`67273e4`](https://github.com/stdlib-js/stdlib/commit/67273e4e5ff3e77af9db4da0cfc45c0aaeceb8d8) - **fix:** update implementation to preserve signed zeros _(by Athan Reines)_
 -   [`d7715a6`](https://github.com/stdlib-js/stdlib/commit/d7715a6d82eeb4c8baa4e7be5539b63ffc415eb0) - **docs:** update descriptions _(by Athan Reines)_

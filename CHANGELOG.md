@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-16)
+## Unreleased (2026-04-10)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`35566af`](https://github.com/stdlib-js/stdlib/commit/35566af0add64775e60422fd16e50e1bec3947e7) - **docs:** fix C examples in READMEs [(#11229)](https://github.com/stdlib-js/stdlib/pull/11229) _(by anee3, Athan Reines)_
 -   [`5e4ca5b`](https://github.com/stdlib-js/stdlib/commit/5e4ca5b367081cf17ec0d201e722609598b2c4d9) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/dnannsumpw` [(#10742)](https://github.com/stdlib-js/stdlib/pull/10742) _(by Prajjwal Bajpai)_
 -   [`90ba881`](https://github.com/stdlib-js/stdlib/commit/90ba8818827558e9fb2afd962774a1e03413564d) - **bench:** refactor to use string interpolation in blas/ext/base/dnannsumpw [(#10539)](https://github.com/stdlib-js/stdlib/pull/10539) _(by Kamal Singh Rautela)_
 
@@ -25,10 +26,12 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Kamal Singh Rautela
 -   Prajjwal Bajpai
+-   anee3
 
 </section>
 
